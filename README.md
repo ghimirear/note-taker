@@ -1,10 +1,15 @@
 # Note-taker
-### This is an simple app that alows user to input data and store them.
- As a small business owner there are lot of things to accomplish in order to function 
-their business properly.
- If user want user can removes those note when they are done. 
- This app is an backend with the express so it dosent have deployed link but it is actually going to publish on heroku.
+**Note-taker** is a simple note taking app powered by
+- node
+- express
+- HTML
+- CSS
+- Javascript.
+# 
+This app allows user to take note, delete note, save them in a json file and rerender on adding/deleting new notes.
+As a samll business owner there are lots of things to accomplish ia a day to run the business sucessfully.
  This ia the link to an app 
+ 
  - [OPEN APP](https://noteapper.herokuapp.com/)
  
  
