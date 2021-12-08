@@ -24,6 +24,7 @@ app.use(express.json());
 
 // LISTENER
 // The below code effectively "starts" our server
+// get current geolocation of the user
 
 app.listen(PORT, () => {
   console.log(`App listening on PORT: ${PORT}`);

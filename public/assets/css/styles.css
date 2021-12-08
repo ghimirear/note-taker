@@ -2,6 +2,15 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background: #525252; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8e3fa7, #0073ff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8e3fa7, #0073ff);
+}
+
+.note-taker{
+  background: -webkit-linear-gradient(#9517fb, #00bbff); /* Chrome 10-25, Safari 5.1-6 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .navbar-brand{
@@ -68,4 +77,18 @@ font-weight: 600;
   border-right: none;
   padding: 20px;
   cursor: pointer;
+  font-size: 1.3rem;
+}
+.list-group-item:hover{
+  font-size: 1.6rem;
+}
+.btn-primary:hover{
+  background: -webkit-linear-gradient(#9517fb, #00bbff); 
+  -webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent;
+  transition: 1s ease-in-out;
+  border-color: -webkit-linear-gradient(to right, #b7a4c7, #03b4f5);
+}
+.delete-note:hover{
+  font-size: 1.6rem;
 }
